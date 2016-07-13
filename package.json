@@ -1,0 +1,27 @@
+{
+  "name": "7z-extract",
+  "version": "0.0.3",
+  "description": "7z wrapper with progress (promises/es6)",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "7z",
+    "7zip",
+    "extract",
+    "archive",
+    "zip"
+  ],
+  "author": "Lee M <leemmccormick@gmail.com> (https://github.com/leemm/)",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "lodash": "^4.13.1",
+    "simple-cli-parser": "0.0.3",
+    "uid-safe": "^2.1.1"
+  }
+}
