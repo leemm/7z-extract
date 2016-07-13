@@ -31,8 +31,8 @@ const archive = new Zip(options);
 * **createFolder** *Boolean* - Creates a random folder name to extract to the files to. (default ```false```)
 
 ```javascript
-archive.list(); //- returns a object including array of files in the archive
-archive.extract(progress); //- extracts the archive, progress function optionally returns current status as object (index, totalNumberOfFiles, percentage)
+archive.list(); //- returns a promise, the result of which is an object including array of files in the archive
+archive.extract(progress); //- extracts the archive and returns a promise, progress function optionally returns current status as object (index, totalNumberOfFiles, percentage)
 ```
 
 # Usage

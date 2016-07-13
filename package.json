@@ -23,5 +23,6 @@
     "lodash": "^4.13.1",
     "simple-cli-parser": "0.0.3",
     "uid-safe": "^2.1.1"
-  }
+  },
+  "repository": "https://github.com/leemm/7z-extract"
 }
